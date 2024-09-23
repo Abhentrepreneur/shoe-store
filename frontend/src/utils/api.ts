@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Set your backend API URL here
-const API_URL = 'http://localhost:5000/api'; // Update this to your backend URL
+const API_URL = 'https://shoe-store-be-flame.vercel.app/api'; // Update this to your backend URL
 
 export const getShoes = async () => {
   try {
