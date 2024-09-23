@@ -5,7 +5,7 @@ import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import './CartPage.css'; // Updated CSS file
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://shoe-store-be-flame.vercel.app/api';
 
 const CartPage: React.FC = () => {
   const [cart, setCart] = useState<any>(null);
