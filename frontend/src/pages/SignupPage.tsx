@@ -3,7 +3,7 @@ import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import './SignupPage.css'; // Import the CSS file
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://shoe-store-be-flame.vercel.app/api';
 
 const SignupPage: React.FC = () => {
   const [email, setEmail] = useState('');
