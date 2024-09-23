@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.signup-page {
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup-container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #333;
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signup-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #ff7e5f;
+}
+
+.input-container {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.signup-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1.2rem;
+  border: 2px solid #ff7e5f;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.signup-input:focus {
+  border-color: #feb47b;
+}
+
+.signup-button {
+  padding: 12px 20px;
+  font-size: 1.2rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  width: 100%;
+}
+
+.signup-button:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .signup-container {
+    padding: 20px;
+  }
+}

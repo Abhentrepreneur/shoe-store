@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.cart-page {
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cart-hero-section {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.cart-hero-title {
+  font-size: 3rem; /* Larger font size */
+  font-weight: 700;
+  animation: fadeIn 1s ease-in-out; /* Animation for the title */
+}
+
+.cart-intro-text {
+  margin: 20px 0;
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  animation: fadeIn 1.5s forwards; /* Animation for intro text */
+  animation-delay: 0.5s; /* Delay for the animation */
+}
+
+.cart-list {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.cart-items-container {
+  width: 60%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #333; /* Dark text color for better readability */
+}
+
+.cart-list-items {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.cart-item-image {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.cart-item-details {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart-total {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.cart-total h3 {
+  font-size: 1.5rem;
+}
+
+.checkout-button {
+  margin-top: 10px;
+  padding: 12px 20px;
+  font-size: 1.2rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.checkout-button:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+.no-items {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .cart-items-container {
+    width: 90%;
+  }
+}
+
+/* Keyframes for fade-in effect */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

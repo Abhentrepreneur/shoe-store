@@ -1,0 +1,83 @@
+.homepage {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  .hero-section {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    padding: 30px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .hero-title {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  .intro-text {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .explore-button {
+    background-color: #fff;
+    color: #ff7e5f;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .explore-button:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .shoe-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .no-shoes {
+    font-size: 1.5em;
+    color: #666;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .shoe-item {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .shoe-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .shoe-item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .shoe-item h3 {
+    margin: 10px 0;
+    font-size: 1.5em;
+  }
+  
+  .shoe-item p {
+    font-size: 1.2em;
+    color: #333;
+  }
+  
